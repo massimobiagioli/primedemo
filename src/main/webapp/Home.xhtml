@@ -4,7 +4,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:f="http://java.sun.com/jsf/core"      
       xmlns:h="http://java.sun.com/jsf/html"
-      xmlns:p="http://primefaces.org/ui">
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:dummy="http://java.sun.com/jsf/composite/dummy">
  
     <h:head>
         <title>JSF 2.0 Hello World</title>
@@ -16,7 +17,7 @@
 	    		value="Test"
 	    		action="#{dummyBean.test}"
 	    		update="pnlTest"/>
-	    	
+	    		    	
 	    	<p:panel 
 	    		id="pnlTest"
 	    		binding="#{dummyBean.panel}"/>
